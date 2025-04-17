@@ -24,5 +24,7 @@ namespace FinalExamVariation.Models
         public Addresses Address { get; set; }
         public string INN { get; set; }
         public int Rating { get; set; }
+        public float Discount { get; set; }
+        public string DiscountProc { get; set; }
     }
 }

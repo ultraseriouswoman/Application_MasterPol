@@ -53,7 +53,7 @@
                             <TextBlock Grid.Column="1"
                                        VerticalAlignment="Top"
                                        HorizontalAlignment="Right"
-                                       Text="10%"
+                                       Text="{Binding DiscountProc}"
                                        FontSize="16"
                                        Margin="15"/>
                         </Grid>
